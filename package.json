@@ -23,8 +23,7 @@
     "access": "public"
   },
   "scripts": {
-    "build": "yarn clean; tsc -p tsconfig.build.json; cp src/ddsketch/proto/compiled.d.ts 
-dist/ddsketch/proto/compiled.d.ts",
+    "build": "yarn clean; tsc -p tsconfig.build.json; cp src/ddsketch/proto/compiled.d.ts dist/ddsketch/proto/compiled.d.ts",
     "clean": "rm -rf dist/*",
     "test": "jest",
     "lint": "eslint \"src/**/*.{js,ts}\"",
